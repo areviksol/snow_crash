@@ -113,7 +113,7 @@ Don't forget to launch getflag !
 ```
 ## 7 Retrieving the Flag
 After switching users, you can retrieve the flag using the following command:
-```
+``` console
 flag01@SnowCrash:~$ getflag
 Check flag.Here is your token : f2av5il02puano7naaf6adaaf
 ```
