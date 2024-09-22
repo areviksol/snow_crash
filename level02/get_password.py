@@ -74,29 +74,26 @@ hex_data = [
     "0x0020 6e3a 20",  
 ]
 for line in hex_data:
-    # Skip the address and convert hex values to bytes
     byte_values = []
     for hex_value in line.split()[1:]:
         try:
             value = int(hex_value, 16)
-            if 0 <= value <= 255:  # Ensure it's a valid byte
+            if 0 <= value <= 255:  
                 byte_values.append(value)
         except ValueError:
-            continue  # Skip invalid hex values
+            continue  
     
     byte_data = bytes(byte_values)
     try:
-        # Decode bytes to string
         decoded_string = byte_data.decode('utf-8', errors='replace')
         
-        # Print characters or their ASCII codes for unprintable chars
         for char in decoded_string:
             if char.isprintable():
-                print(char, end='')  # Print printable characters
+                print(char, end='') 
             else:
-                print(f'\\x{ord(char):02x}', end='')  # Print hex code for unprintable chars
+                print(f'\\x{ord(char):02x}', end='')  
 
-        print()  # New line for each original line
+        print()  
     except Exception as e:
         print(f"Error decoding line: {e}")
         
