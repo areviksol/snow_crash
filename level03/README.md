@@ -32,7 +32,10 @@ Run the level03 Binary: Now that the symbolic link is set up and the PATH is adj
 level03@SnowCrash:/tmp$ ~/level03
 Check flag.Here is your token : qi0maab88jeaj46qoumi7maus
 ```
-## Step 4: Use token to enter level04
 
+## Step 4: Use token to enter level04
+``` console
 level03@SnowCrash:~$ su level04
 Password: qi0maab88jeaj46qoumi7maus
+```
+
