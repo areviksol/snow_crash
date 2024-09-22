@@ -128,7 +128,7 @@ Password: ft_waNDReL0L
 Don't forget to launch getflag !
 ```
 
-##4. Retrieve the Flag
+## 4. Retrieve the Flag
 After switching users, retrieve the flag:
 ``` console
 flag02@SnowCrash:~$ getflag
