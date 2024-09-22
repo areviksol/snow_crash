@@ -20,7 +20,7 @@ Password: ne2searoevaevoem4ov4ar8ap
 
 The script uses the CGI module to read parameters from the URL. It calls the ``function x(param("x"))``, where ``param("x")`` retrieves the value of the query parameter `x`. Inside the function x, it executes the command using backticks: 
 ```perl
-print echo $y 2>&1``. 
+print `echo $y 2>&1`;
 ```
 This means whatever is passed as `x` is executed as a shell command, and the output is printed back to the web browser.
 
