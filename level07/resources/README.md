@@ -1,7 +1,10 @@
-strings: A Linux utility that prints the sequences of printable ASCII characters present in a binary.
-getenv(): Returns the value of an environment variable in C.
-system(): Runs a shell command in C.
-setresuid()/setresgid(): These functions alter the user and group ids, respectively, and might be used to switch what privileges the program runs as.
+`strings:` A Linux utility that prints the sequences of printable ASCII characters present in a binary. 
+
+`getenv():` Returns the value of an environment variable in C.
+
+`system():` Runs a shell command in C.
+
+`setresuid()/setresgid()`: These functions alter the user and group ids, respectively, and might be used to switch what privileges the program runs as.
 
 #### Running strings level07 shows that:
 
