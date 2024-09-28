@@ -307,9 +307,9 @@ In the third tab, nc will capture the file being sent when the race condition is
 
 ``` bash
 level10@SnowCrash:~$ nc -lk 6969
-[...garbage...]
+[...💩💩💩...]
 woupa2yuojeeaaed06riuj63c
-[...more garbage...]
+[...more 💩💩💩...]
 
 ```
 The string woupa2yuojeeaaed06riuj63c is the password for the flag10 user.
